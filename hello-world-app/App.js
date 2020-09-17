@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React , { useState } from 'react';
 import { StyleSheet, Text, TextInput, View ,Button,Image } from 'react-native';
-import MyButton from './componensts/MyButton.js'
+import MyButton from './components/MyButton.js'
 export default function App() {
   const [ input , setInput ] = useState('')
   const [ color , SetColor ] =useState('red')
